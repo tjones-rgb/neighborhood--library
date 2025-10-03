@@ -78,7 +78,10 @@ public class MangaCafe {
             }
         }
     }
-    public static void CheckOut(String name) {
+    public static void CheckOutbook(Book[] Book,Scanner scan ) {
+        System.out.println("PLease Enter ID Here");
+        int Bookid = scan.nextInt();
+
 
     }
 }
